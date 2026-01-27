@@ -41,6 +41,8 @@ outer.right =      10
 
 [mode.main.binding]
 alt-enter = 'exec-and-forget open -n -a Ghostty'
+cmd-f = 'fullscreen on'
+cmd-shift-f = 'fullscreen off'
 
 # All possible keys:
 # - Letters.        a, b, c, ..., z
@@ -168,3 +170,9 @@ cmd-shift-h = ['join-with left', 'mode main']
 cmd-shift-j = ['join-with down', 'mode main']
 cmd-shift-k = ['join-with up', 'mode main']
 cmd-shift-l = ['join-with right', 'mode main']
+
+cmd-t = 'exec-and-forget true'
+cmd-w = 'exec-and-forget true'
+cmd-q = 'exec-and-forget true'
+cmd-n = 'exec-and-forget true'
+cmd-p = 'exec-and-forget true'
