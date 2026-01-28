@@ -34,7 +34,7 @@ return {
     local suggestion = require("copilot.suggestion")
 
     -- Accept Copilot inline suggestion
-    vim.keymap.set("i", "<C-l>", function()
+    vim.keymap.set("i", "<C-a>", function()
       if suggestion.is_visible() then
         suggestion.accept()
       end
