@@ -18,7 +18,7 @@ font-family = "Victor Mono"
 font-family-bold = "Monaspace Neon Var"
 font-family-italic = "Operator Mono SSm Lig"
 font-family-bold-italic = "Operator Mono SSm Lig"
-font-size = 15
+font-size = 14
 font-thicken = true
 # font-variation = wght=300
 
