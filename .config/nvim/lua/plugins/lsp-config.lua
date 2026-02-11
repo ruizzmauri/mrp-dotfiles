@@ -22,6 +22,9 @@ return {
           "html",
           "cssls",
           "emmet_ls",
+
+          -- JSON
+          "jsonls",
         },
       })
     end,
@@ -59,6 +62,7 @@ return {
       vim.lsp.enable("html")
       vim.lsp.enable("cssls")
       vim.lsp.enable("emmet_ls")
+      vim.lsp.enable("jsonls")
 
       -- Keymaps
       vim.keymap.set("n", "K", vim.lsp.buf.hover)

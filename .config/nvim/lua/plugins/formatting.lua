@@ -18,6 +18,9 @@ return {
     opts.formatters_by_ft.html = { "prettier" }
     opts.formatters_by_ft.css = { "prettier" }
 
+    -- JSON
+    opts.formatters_by_ft.json = { "prettier" }
+
     return opts
   end,
 }
